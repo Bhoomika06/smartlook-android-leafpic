@@ -143,6 +143,8 @@ dependencies {
     // TODO check them out
     implementation 'com.turingtechnologies.materialscrollbar:lib:10.0.3'
     implementation 'de.psdev.licensesdialog:licensesdialog:1.8.3'
+
+    compile project(':smartlooksdk')
 }
 
 //Properties props = new Properties()
