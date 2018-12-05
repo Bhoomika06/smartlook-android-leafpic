@@ -218,6 +218,15 @@
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity android:name=".activities.AffixActivity" />
+
+        <activity android:name=".smartlook.SmartlookSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/smartlook_settings"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="53abbf64e8791d3fc54d80fbec9aca2e82ff9e97" />
     </application>
 
 </manifest>

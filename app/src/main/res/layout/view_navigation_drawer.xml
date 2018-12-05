@@ -110,6 +110,13 @@
                 app:itemText="@string/settings" />
 
             <org.horaapps.leafpic.views.navigation_drawer.NavigationEntry
+                android:id="@+id/navigation_item_smartlook_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemIcon="@string/icon_settings"
+                app:itemText="@string/smartlook_settings" />
+
+            <org.horaapps.leafpic.views.navigation_drawer.NavigationEntry
                 android:id="@+id/navigation_item_affix"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -43,6 +43,7 @@ import org.horaapps.leafpic.fragments.EditModeListener;
 import org.horaapps.leafpic.fragments.NothingToShowListener;
 import org.horaapps.leafpic.fragments.RvMediaFragment;
 import org.horaapps.leafpic.interfaces.MediaClickListener;
+import org.horaapps.leafpic.smartlook.SmartlookSettingsActivity;
 import org.horaapps.leafpic.timeline.TimelineFragment;
 import org.horaapps.leafpic.util.AlertDialogsHelper;
 import org.horaapps.leafpic.util.DeviceUtils;
@@ -66,6 +67,7 @@ import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVI
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_DONATE;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_HIDDEN_FOLDERS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_SETTINGS;
+import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_SMARTLOOK_SETTINGS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_TIMELINE;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_WALLPAPERS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NavigationItem;
@@ -597,7 +599,9 @@ public class MainActivity extends SharedMediaActivity implements
             case NAVIGATION_ITEM_SETTINGS:
                 SettingsActivity.startActivity(this);
                 break;
-
+            case NAVIGATION_ITEM_SMARTLOOK_SETTINGS:
+                SmartlookSettingsActivity.startActivity(this);
+                break;
             case NAVIGATION_ITEM_ABOUT:
                 AboutActivity.startActivity(this);
                 break;

@@ -236,4 +236,19 @@ Vám za používání této aplikace    </string>
   <string name="multi_column">Sloupce</string>
   <string name="multi_column_sub">Vyberte, kolik sloupců chcete pro složky a média    </string>
   <string name="columns">sloupce</string>
+
+  <string name="smartlook_settings">Smartlook nastavení</string>
+  <string name="apply_changes_n_this_will_restart_the_app">Aplikuj a ulož změny\n(aplikace bude restartována)</string>
+  <string name="api_key">Api klíč</string>
+  <string name="reload_ndefault">Obnov\nvýchozí</string>
+  <string name="exit_dialog_message">Všechny neuložené změny budou ztraceny!</string>
+  <string name="smartlook_api_key">Smartlook api klíč:</string>
+  <string name="show_view_selector_on_click">Zobraz \"selector\" pohledu při kliknutí:</string>
+
+  <string-array name="server_array">
+    <item>Alfa (manager.alfa.smartlook.com)</item>
+    <item>Beta (manager.beta.smartlook.com)</item>
+    <item>Produkce (manager.smartlook.com)</item>
+  </string-array>
+
 </resources>
